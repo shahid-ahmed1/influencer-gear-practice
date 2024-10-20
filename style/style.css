@@ -52,6 +52,7 @@
     color: rgb(58, 58, 58);
     font-size: 3.25rem;
     font-weight: 700;
+    margin: 0;
   }
   .banner-contant-discription{
     color: rgb(58, 58, 58);
@@ -66,22 +67,44 @@
     border: none;
   }
   .banner-img{
-    width: 100%;
+
     background-image: url("../images/Circle\ design.svg");
     background-repeat:no-repeat ;
+  }
+  .banner-img img{
+    width: 100%;
+  }
+  /* contac related style */
+  .contact{
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
   }
 /* responsive website */
 @media screen and (max-width:576px){
   nav ,
   nav ul,
-  .banner{
+  .banner,
+  .contact
+  {
     flex-direction: column;
     gap: 30px;
   }
-  .banner-contant{
-    width: 540px;
+  .banner-contant-title{
+    font-size: 2.25rem;
   }
-  .banner-img{
+  nav ul li a{
+    font-size: 30px;
+  }
+  .banner-contant{
+    max-width: 540px;
+    padding: 0;
+  }
+  .banner-img img{
     margin-left: 30px;
+  }
+  .contact{
+    align-items: center;
   }
 }
