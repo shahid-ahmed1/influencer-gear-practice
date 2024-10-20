@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.font-family {
+    font-family: "Poppins","Inner","Manrope" sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  header{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav h4{
+    color: rgb(58, 58, 58);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    margin-right: 35px;
+  }
+  nav ul li a i{
+    margin-right: 35px;
+  }
+  /* banner related style */
+  .banner{
+    margin-top: 50px;
+    display: flex;
+    gap: 130px;
+
+  }
+  .banner-contant{
+   max-width: 580px;
+   padding:80px ;
+    
+   
+    
+  }
+  .banner-contant-title{
+    color: rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+  }
+  .banner-contant-discription{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .btn{
+    border-radius: 40px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    padding: 10px 24px;
+    border: none;
+  }
+  .banner-img{
+    width: 100%;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat:no-repeat ;
+  }
+/* responsive website */
+@media screen and (max-width:576px){
+  nav ,
+  nav ul,
+  .banner{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .banner-contant{
+    width: 540px;
+  }
+  .banner-img{
+    margin-left: 30px;
+  }
+}
