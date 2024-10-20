@@ -120,6 +120,33 @@
     font-size: 0.8rem;
     font-weight: 700;
   }
+  /* futured section */
+  .futured{
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    gap: 95px;
+  }
+  .futured img{
+    width: 100%;
+  }
+  .futured-contant{
+    max-width: 600px;
+
+  
+  }
+  .futured-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(10, 8, 38);
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+  .futured-discription{
+    color: rgb(108, 108, 108);
+    font-weight: 700;
+  }
+  
 /* responsive website */
 @media screen and (max-width:576px){
   nav ,
